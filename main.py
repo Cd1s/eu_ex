@@ -37,8 +37,8 @@ import requests
 from bs4 import BeautifulSoup
 
 # 多个账户请使用空格隔开
-USERNAME = os.environ["USERNAME"]  # 用户名或邮箱
-PASSWORD = os.environ["PASSWORD"]  # 密码
+USERNAME = os.environ["chaonannnn@gmail.com"]  # 用户名或邮箱
+PASSWORD = os.environ["qen-ZYX4ynk1vdj2ngj"]  # 密码
 
 # default value is TrueCaptcha demo credential,
 # you can use your own credential via set environment variables:
@@ -61,8 +61,9 @@ MAILPARSER_DOWNLOAD_URL_ID = os.environ["MAILPARSER_DOWNLOAD_URL_ID"]
 MAILPARSER_DOWNLOAD_BASE_URL = "https://files.mailparser.io/d/"
 
 # Telegram Bot Push https://core.telegram.org/bots/api#authorizing-your-bot
-TG_BOT_TOKEN = ""  # 通过 @BotFather 申请获得，示例：1077xxx4424:AAFjv0FcqxxxxxxgEMGfi22B4yh15R5uw
-TG_USER_ID = ""  # 用户、群组或频道 ID，示例：129xxx206
+TG_BOT_TOKEN = "6431132396:AAFt8wn6aidBRcm_Z3o3ggdZl_7PpzRsN9A
+"  # 通过 @BotFather 申请获得，示例：1077xxx4424:AAFjv0FcqxxxxxxgEMGfi22B4yh15R5uw
+TG_USER_ID = "euservdebot"  # 用户、群组或频道 ID，示例：129xxx206
 TG_API_HOST = "https://api.telegram.org"  # 自建 API 反代地址，供网络环境无法访问时使用，网络正常则保持默认
 
 # Email notification
